@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Lost and Found</string>
+    <string name="app_tagline">Lost it? Find it.</string>
+    <string name="app_full_name">Lost and Found</string>
+    <string name="campus_name">GCET College Campus</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_report">Report</string>
+    <string name="nav_my_reports">My Reports</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">Welcome Back 👋</string>
+    <string name="sign_in_subtitle">Sign in with your student credentials to report or recover items.</string>
+    <string name="email_or_id_hint">College Email / Student ID</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_demo_login">Demo as Jainik Bhandari</string>
+    <string name="prompt_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="create_account_title">Create Account 🎓</string>
+    <string name="create_account_subtitle">Join Lost and Found with your official college credentials.</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="college_email_hint">College Email (@gcet.ac.in)</string>
+    <string name="student_id_hint">Student ID (e.g. 22011011001)</string>
+    <string name="department_hint">Department (e.g. Computer Engineering)</string>
+    <string name="terms_checkbox">I agree to the GCET Honor Code &amp; Terms</string>
+    <string name="btn_register">Create Account</string>
+    <string name="prompt_sign_in">Already have an account? Sign In</string>
+
+    <!-- Anti-Fraud & Safe Handover -->
+    <string name="safe_handover_title">🛡️ Safe Handover at GCET Security Desk</string>
+    <string name="safe_handover_desc">Require physical meeting at GCET Security Desk (Gate #1) with College ID check so items never go in wrong hands.</string>
+    <string name="safe_handover_badge">🛡️ GCET Safe Handover (ID Verified)</string>
+
+    <!-- Home -->
+    <string name="greeting_format">Hello, %1$s 👋</string>
+    <string name="search_hint">Search lost or found items...</string>
+    <string name="quick_actions_title">Quick Actions</string>
+    <string name="i_lost_something">I Lost Something</string>
+    <string name="report_lost_desc">Report a lost item on campus</string>
+    <string name="i_found_something">I Found Something</string>
+    <string name="report_found_desc">Report an item you spotted or recovered</string>
+    <string name="categories_title">Categories</string>
+    <string name="recent_reports_title">Recent Reports</string>
+    <string name="see_all">See All</string>
+
+    <!-- Explore -->
+    <string name="explore_title">Explore Lost &amp; Found</string>
+    <string name="explore_subtitle">Discover reports across campus</string>
+    <string name="filter_all">All</string>
+    <string name="filter_lost">🔴 Lost</string>
+    <string name="filter_found">🟢 Found</string>
+
+    <!-- Report -->
+    <string name="report_title">Report an Item</string>
+    <string name="what_happened">What happened?</string>
+    <string name="choice_lost">🔴 I Lost It</string>
+    <string name="choice_lost_desc">I left behind or misplaced something on campus.</string>
+    <string name="choice_found">🟢 I Found It</string>
+    <string name="choice_found_desc">I spotted or recovered an unattended item.</string>
+    <string name="item_name_hint">Item Name (e.g. Casio FX-991EX Calculator)</string>
+    <string name="category_hint">Category</string>
+    <string name="description_hint">Description &amp; Unique Marks (colors, stickers, scratches)</string>
+    <string name="location_hint">Campus Location (e.g. Central Library 2nd Floor)</string>
+    <string name="date_hint">Date</string>
+    <string name="time_hint">Approximate Time</string>
+    <string name="verify_question_hint">Secret Verification Question (Recommended for Found items)</string>
+    <string name="upload_photos_title">Upload Photos</string>
+    <string name="upload_photos_desc">Tap to pick photo from gallery</string>
+    <string name="btn_submit_report">Submit Report</string>
+
+    <!-- My Reports -->
+    <string name="my_reports_title">My Reports</string>
+    <string name="tab_all">All</string>
+    <string name="tab_lost">Lost</string>
+    <string name="tab_found">Found</string>
+    <string name="tab_resolved">Resolved</string>
+
+    <!-- Item Details -->
+    <string name="details_title">Item Details</string>
+    <string name="btn_contact_user">Contact User</string>
+    <string name="btn_i_think_mine">I Think This Is Mine</string>
+    <string name="btn_claim_item">Claim Item</string>
+    <string name="btn_i_found_this">I Found This Item</string>
+    <string name="btn_mark_resolved">✓ Mark as Resolved</string>
+    <string name="btn_report_suspicious">🚩 Report Suspicious Post</string>
+
+    <!-- Smart Match -->
+    <string name="smart_match_title">🔎 Smart Match Found</string>
+    <string name="smart_match_desc">Our system detected a potential match for your lost report!</string>
+    <string name="match_score_format">%1$d%% Match</string>
+</resources>

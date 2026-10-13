@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary & Accent -->
+    <color name="primary">#4F46E5</color>
+    <color name="primary_dark">#3730A3</color>
+    <color name="primary_light">#EEF2FF</color>
+    <color name="primary_glow">#404F46E5</color>
+    <color name="secondary">#7C3AED</color>
+    <color name="accent_cyan">#06B6D4</color>
+
+    <!-- Lost & Found Status Colors -->
+    <color name="status_lost">#EF4444</color>
+    <color name="status_lost_light">#FEE2E2</color>
+    <color name="status_lost_border">#FCA5A5</color>
+
+    <color name="status_found">#10B981</color>
+    <color name="status_found_light">#DCFCE7</color>
+    <color name="status_found_border">#86EFAC</color>
+
+    <!-- Additional Status Tags -->
+    <color name="status_pending">#8B5CF6</color>
+    <color name="status_pending_light">#F5F3FF</color>
+    <color name="status_match">#F59E0B</color>
+    <color name="status_match_light">#FEF3C7</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="bg_screen">#F8FAFC</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_card_subtle">#F1F5F9</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="card_stroke_focused">#818CF8</color>
+    <color name="input_stroke">#94A3B8</color>
+    <color name="input_stroke_focused">#4F46E5</color>
+    <color name="input_bg">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Utilities -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay_scrim">#800F172A</color>
+</resources>

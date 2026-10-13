@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvReportTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Item"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Name *"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView android:text="Category:" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Brand"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Color"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView android:text="Location:" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Date"
+                android:focusable="false"
+                android:clickable="true"
+                android:layout_marginEnd="8dp"/>
+                
+            <EditText
+                android:id="@+id/etTime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="Time"
+                android:focusable="false"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etAdditionalInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional Info"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutVerification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="#E3F2FD"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verification Info (Kept Secret)"
+                android:textStyle="bold"/>
+                
+            <EditText
+                android:id="@+id/etVerificationQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E.g. What is the lock screen wallpaper?"/>
+                
+            <EditText
+                android:id="@+id/etVerificationAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/ivItemImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="#DDDDDD"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnSubmitReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Report"
+            android:layout_marginBottom="24dp"/>
+            
+    </LinearLayout>
+</ScrollView>
